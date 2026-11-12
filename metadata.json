@@ -1,0 +1,6 @@
+{
+  "name": "AI ASISSTANT",
+  "description": "Futuristic native Kotlin Android AI assistant powered by Gemini with Sinhala and English chat, voice assistant, image generator, coding studio, PDF reader, and web search.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
