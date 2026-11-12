@@ -48,7 +48,7 @@
 AI-ASISSTANT/
 ├── .github/
 │   └── workflows/
-│       └── android.yml            # CI workflow: JDK 17, tests, debug APK, Releases
+│       └── android.yml            # CI workflow: JDK 17 & 21, tests, debug APK, Releases
 ├── app/
 │   ├── src/
 │   │   ├── main/
@@ -99,7 +99,7 @@ AI-ASISSTANT/
 
 ## Building Locally
 
-Requirements: **JDK 17+**, **Android SDK (Compile SDK 36, Min SDK 26)**.
+Requirements: **JDK 21** (required for Robolectric SDK 36 tests; compiles targeting Java 17), **Android SDK (Compile SDK 36.1, Min SDK 26)**.
 
 ```bash
 ./gradlew testDebugUnitTest
